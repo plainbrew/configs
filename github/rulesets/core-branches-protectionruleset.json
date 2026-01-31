@@ -2,6 +2,7 @@
   "name": "Core branches protection ruleset",
   "target": "branch",
   "enforcement": "active",
+  "bypass_actors": [],
   "conditions": {
     "ref_name": {
       "exclude": [],
@@ -27,6 +28,5 @@
         "allowed_merge_methods": ["merge"]
       }
     }
-  ],
-  "bypass_actors": []
+  ]
 }
