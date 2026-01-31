@@ -1,0 +1,16 @@
+{
+  "name": "configs",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "oxfmt": "^0.27.0"
+  },
+  "packageManager": "pnpm@10.28.2"
+}
