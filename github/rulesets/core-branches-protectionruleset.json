@@ -1,9 +1,6 @@
 {
-  "id": 0,
   "name": "Core branches protection ruleset",
   "target": "branch",
-  "source_type": "Repository",
-  "source": "",
   "enforcement": "active",
   "conditions": {
     "ref_name": {
