@@ -11,6 +11,8 @@
     "format:check": "oxfmt --check"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "oxfmt": "^0.27.0"
   },
   "packageManager": "pnpm@10.28.2"
