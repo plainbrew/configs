@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "format": "oxfmt",
-    "format:check": "oxfmt --check"
+    "format:check": "oxfmt --check",
+    "prepare": "husky"
   },
   "devDependencies": {
     "husky": "^9.1.7",
