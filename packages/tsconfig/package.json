@@ -17,5 +17,8 @@
   "exports": {
     ".": "./tsconfig.json",
     "./react": "./react.json"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.4.0"
   }
 }
