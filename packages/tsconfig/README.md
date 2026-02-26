@@ -4,6 +4,8 @@ plainbrew プロジェクト向けの strict な TypeScript 設定。
 
 ## 使い方
 
+> **TypeScript >= 5.8 が必要です** (`erasableSyntaxOnly` は TS 5.8+、`noUncheckedSideEffectImports` は TS 5.6+)
+
 ```jsonc
 // ベース
 { "extends": "@plainbrew/tsconfig" }
