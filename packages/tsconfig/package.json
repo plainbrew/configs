@@ -1,0 +1,24 @@
+{
+  "name": "@plainbrew/tsconfig",
+  "version": "0.1.0",
+  "description": "Strict TypeScript configuration for plainbrew projects",
+  "keywords": [
+    "react",
+    "strict",
+    "tsconfig",
+    "typescript"
+  ],
+  "license": "MIT",
+  "files": [
+    "tsconfig.json",
+    "react.json"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./tsconfig.json",
+    "./react": "./react.json"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.8.0"
+  }
+}
